@@ -1,0 +1,38 @@
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.toolbar {
+  min-width: 400px;
+  height: 100%;
+}
+
+.map {
+  background-color: rgb(235, 235, 235);
+  height: 100%;
+  width: 100%;
+  flex-grow: 3;
+}
+
+.header {
+  background-color: rgb(145, 145, 145);
+  width: 100%;
+  height: 50px;
+}
+
+.tools {
+  background-color:rgb(194, 194, 194);
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.tools_buttons {
+  background-color: rgb(236, 236, 236);
+  width: 40px;
+  height: 100%;
+}
